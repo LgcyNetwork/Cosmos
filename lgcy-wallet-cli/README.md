@@ -1,3 +1,5 @@
+TEST
+
 Welcome to use the Wallet-CLI.  
 
 ## Get started
@@ -53,33 +55,33 @@ For more information on a specific command, just type the command on terminal wh
 
 | [AddTransactionSign](#How-to-use-the-multi-signature-feature-of-wallet-cli) | [ApproveProposal](#Approvecancel-the-proposal)  | [AssetIssue](#How-to-issue-TRC10-tokens) |
 | :---------:|:---------:|:--------: |
-| [BackupShieldedTRC20Wallet](#How-to-transfer-shielded-TRC20-token) | [BackupWallet](#Wallet-related-commands)| [BackupWallet2Base64](#Wallet-related-commands) |
+| [BackupShieldedLGCY20Wallet](#How-to-transfer-shielded-LGCY20-token) | [BackupWallet](#Wallet-related-commands)| [BackupWallet2Base64](#Wallet-related-commands) |
 | [BroadcastTransaction](#Some-others) | [ChangePassword](#Wallet-related-commands)| [CreateProposal](#How-to-initiate-a-proposal) 
 | [DeleteProposal](#Cancel-the-created-proposal) | [DeployContract](#How-to-use-smart-contract) | [ExchangeCreate](#How-to-trade-on-the-exchange) |
 | [ExchangeInject](#How-to-trade-on-the-exchange) | [ExchangeTransaction](#How-to-trade-on-the-exchange) | [ExchangeWithdraw](#How-to-trade-on-the-exchange) |
-| [FreezeBalance](#How-to-delegate-resourcee) | [GenerateAddress](#Account-related-commands) | [GenerateShieldedTRC20Address](#How-to-transfer-shielded-TRC20-token)|
+| [FreezeBalance](#How-to-delegate-resourcee) | [GenerateAddress](#Account-related-commands) | [GenerateShieldedLGCY20Address](#How-to-transfer-shielded-LGCY20-token)|
 | [GetAccount](#Account-related-commands) |[GetAccountNet](#Account-related-commands) | [GetAccountResource](#Account-related-commands) | 
-| [GetAddress](#Account-related-commands) | [GetAkFromAsk](#How-to-transfer-shielded-TRC20-token) |[GetAssetIssueByAccount](#How-to-issue-TRC10-tokens) | 
+| [GetAddress](#Account-related-commands) | [GetAkFromAsk](#How-to-transfer-shielded-LGCY20-token) |[GetAssetIssueByAccount](#How-to-issue-TRC10-tokens) | 
 | [GetAssetIssueById](#How-to-issue-TRC10-tokens) | [GetAssetIssueByName](#How-to-issue-TRC10-tokens) |[GetAssetIssueListByName](#How-to-issue-TRC10-tokens) | 
 | [GetBalance](#Account-related-commands) | [GetBlock](#How-to-get-block-information) |[GetBlockById](#How-to-get-block-information) | 
 | [GetBlockByLatestNum](#How-to-get-block-information) | [GetBlockByLimitNext](#How-to-get-block-information) | [GetBrokerage](#Brokerage) | 
 | [GetContract](#How-to-use-smart-contracts) | [GetDelegatedResource](#How-to-delegate-resource) |[GetDelegatedResourceAccountIndex](#How-to-delegate-resource) | 
-| [GetDiversifier](#How-to-transfer-shielded-TRC20-token)| [GetExpandedSpendingKey](#How-to-transfer-shielded-TRC20-token)| [GetIncomingViewingKey](#How-to-transfer-shielded-TRC20-token)  | 
+| [GetDiversifier](#How-to-transfer-shielded-LGCY20-token)| [GetExpandedSpendingKey](#How-to-transfer-shielded-LGCY20-token)| [GetIncomingViewingKey](#How-to-transfer-shielded-LGCY20-token)  | 
 | [GetMarketOrderByAccount](#How-to-use-lgcy-to-sell-asset)| [GetMarketOrderById](#How-to-use-lgcy-to-sell-asset)| [GetMarketOrderListByPair](#How-to-use-lgcy-to-sell-asset)  | 
 | [GetMarketPairList](#How-to-use-lgcy-to-sell-asset)| [GetMarketPriceByPair](#How-to-use-lgcy-to-sell-asset)| [GetNextMaintenanceTime](#Some-others) | 
-| [GetNkFromNsk](#How-to-transfer-shielded-TRC20-token) | [GetProposal](#Get-proposal-information) | [GetShieldedPaymentAddress](#How-to-transfer-shielded-TRC20-token)| 
-| [GetSpendingKey](#How-to-transfer-shielded-TRC20-token) | [GetReward](#Brokerage) |  [GetTransactionApprovedList](#How-to-use-the-multi-signature-feature-of-wallet-cli) |
+| [GetNkFromNsk](#How-to-transfer-shielded-LGCY20-token) | [GetProposal](#Get-proposal-information) | [GetShieldedPaymentAddress](#How-to-transfer-shielded-LGCY20-token)| 
+| [GetSpendingKey](#How-to-transfer-shielded-LGCY20-token) | [GetReward](#Brokerage) |  [GetTransactionApprovedList](#How-to-use-the-multi-signature-feature-of-wallet-cli) |
 | [GetTransactionById](#How-to-get-transaction-information) | [GetTransactionCountByBlockNum](#How-to-get-transaction-information) | [GetTransactionInfoByBlockNum](#How-to-get-transaction-information) | 
-| [GetTransactionInfoById](#How-to-get-transaction-information) | [GetTransactionSignWeight](#How-to-use-the-multi-signature-feature-of-wallet-cli) | [ImportShieldedTRC20Wallet](#How-to-transfer-shielded-TRC20-token) | 
+| [GetTransactionInfoById](#How-to-get-transaction-information) | [GetTransactionSignWeight](#How-to-use-the-multi-signature-feature-of-wallet-cli) | [ImportShieldedLGCY20Wallet](#How-to-transfer-shielded-LGCY20-token) | 
 | [ImportWallet](#Wallet-related-commands) | [ImportWalletByBase64](#Wallet-related-commands) | [ListAssetIssue](#Get-Token10) | 
 | [ListExchanges](#How-to-trade-on-the-exchange) | [ListExchangesPaginated](#How-to-trade-on-the-exchange) | [ListNodes](#Some-others) | 
-| [ListShieldedTRC20Address](#How-to-transfer-shielded-TRC20-token) | [ListShieldedTRC20Note](#How-to-transfer-shielded-TRC20-token) | [ListProposals](#How-to-initiate-a-proposal) | 
-| [ListProposalsPaginated](#How-to-initiate-a-proposal) | [ListWitnesses](#Some-others) | [LoadShieldedTRC20Wallet](#How-to-transfer-shielded-TRC20-token) | 
+| [ListShieldedLGCY20Address](#How-to-transfer-shielded-LGCY20-token) | [ListShieldedLGCY20Note](#How-to-transfer-shielded-LGCY20-token) | [ListProposals](#How-to-initiate-a-proposal) | 
+| [ListProposalsPaginated](#How-to-initiate-a-proposal) | [ListWitnesses](#Some-others) | [LoadShieldedLGCY20Wallet](#How-to-transfer-shielded-LGCY20-token) | 
 | [Login](#Command-line-operation-flow-example) | [MarketCancelOrder](#How-to-use-lgcy-to-sell-asset) | [MarketSellAsset](#How-to-use-lgcy-to-sell-asset)| 
-| [ParticipateAssetIssue](#How-to-issue-TRC10-tokens) | [RegisterWallet](#Wallet-related-commands) | [ResetShieldedTRC20Note](#How-to-transfer-shielded-TRC20-token) | 
-| [ScanShieldedTRC20NoteByIvk](#How-to-transfer-shielded-TRC20-token) |  [ScanShieldedTRC20NoteByOvk](#How-to-transfer-shielded-TRC20-token) |[SendCoin](#How-to-use-the-multi-signature-feature-of-wallet-cli) | 
-| [SendShieldedTRC20Coin](#How-to-transfer-shielded-TRC20-token) | [SendShieldedTRC20CoinWithoutAsk](#How-to-transfer-shielded-TRC20-token) | [SetShieldedTRC20ContractAddress](#How-to-transfer-shielded-TRC20-token) | 
-| [ShowShieldedTRC20AddressInfo](#How-to-transfer-shielded-TRC20-token) | [TransferAsset](#How-to-issue-TRC10-tokens) | [TriggerContract](#How-to-use-smart-contracts) |
+| [ParticipateAssetIssue](#How-to-issue-TRC10-tokens) | [RegisterWallet](#Wallet-related-commands) | [ResetShieldedLGCY20Note](#How-to-transfer-shielded-LGCY20-token) | 
+| [ScanShieldedLGCY20NoteByIvk](#How-to-transfer-shielded-LGCY20-token) |  [ScanShieldedLGCY20NoteByOvk](#How-to-transfer-shielded-LGCY20-token) |[SendCoin](#How-to-use-the-multi-signature-feature-of-wallet-cli) | 
+| [SendShieldedLGCY20Coin](#How-to-transfer-shielded-LGCY20-token) | [SendShieldedLGCY20CoinWithoutAsk](#How-to-transfer-shielded-LGCY20-token) | [SetShieldedLGCY20ContractAddress](#How-to-transfer-shielded-LGCY20-token) | 
+| [ShowShieldedLGCY20AddressInfo](#How-to-transfer-shielded-LGCY20-token) | [TransferAsset](#How-to-issue-TRC10-tokens) | [TriggerContract](#How-to-use-smart-contracts) |
 | [UnfreezeAsset](#How-to-issue-TRC10-tokens) | [UnfreezeBalance](#How-to-delegate-resource) |[UpdateAsset](#How-to-issue-TRC10-tokens) | 
 | [UpdateBrokerage](#Brokerage) | [UpdateKandyLimit](#How-to-use-smart-contracts) |[UpdateSetting](#How-to-use-smart-contracts) | 
 | [UpdateAccountPermission](#How-to-use-the-multi-signature-feature-of-wallet-cli) | [VoteWitness](#How-to-vote) |
@@ -1153,16 +1155,16 @@ as: 721d63b074f18d41c147e04c952ec93467777a30b6f16745bc47a8eae5076545
 > Broadcast the transaction, where the transaction is in hex string format.
 
 
-## How to transfer shielded TRC20 token
+## How to transfer shielded LGCY20 token
 
-If you want to try to transfer shielded TRC20 token, you'd better set the `blockNumberStartToScan` field in `config.conf` file.
+If you want to try to transfer shielded LGCY20 token, you'd better set the `blockNumberStartToScan` field in `config.conf` file.
 This field is used to set the starting block that the wallet needs to scan. If you ignore this field, or set it to 0, 
 the notes you receive will probably take a long time to show up in the wallet. It is recommended that this field is 
 set to the block number in which the earliest relevant shielded contract was created. If the exact number is not known, 
 this field can be set as follows. If used in mainnet, please set 22690588. If used in Nile testnet, please set 6380000. 
 Otherwise, please set 0.
 
-When you begin to transfer TRC20 token to shielded address, you must have a shielded address. The
+When you begin to transfer LGCY20 token to shielded address, you must have a shielded address. The
  following commands help to generate shielded account.
 
 ### GetSpendingKey
@@ -1253,18 +1255,18 @@ Example:
 ```
 Generate a shielded address from ivk and d
 
-### SetShieldedTRC20ContractAddress
+### SetShieldedLGCY20ContractAddress
 
 ```console
-> SetShieldedTRC20ContractAddress TRC20ContractAddress ShieldedContractAddress
+> SetShieldedLGCY20ContractAddress LGCY20ContractAddress ShieldedContractAddress
 ```
-TRC20ContractAddress
-> TRC20 contract address
+LGCY20ContractAddress
+> LGCY20 contract address
 
 ShieldedContractAddress
 > Shielded contract address
 
-Set TRC20 contract address and shielded contract address. Please execute this command before you perform all the following operations related to the shielded transaction of TRC20 token except `ScanShieldedTRC20NoteByIvk` and `ScanShieldedTRC20NoteByOvk`.
+Set LGCY20 contract address and shielded contract address. Please execute this command before you perform all the following operations related to the shielded transaction of LGCY20 token except `ScanShieldedLGCY20NoteByIvk` and `ScanShieldedLGCY20NoteByOvk`.
 
 When you execute this command, the `Scaling Factor` will be shown. The `Scaling Factor` is set in
  the shielded contract. 
@@ -1274,23 +1276,23 @@ When you execute this command, the `Scaling Factor` will be shown. The `Scaling 
 Example:
 
 ```console
-> SetShieldedTRC20ContractAddress TLDxNTzNvEPd4gHox8V1zK2w82LFnideKE TKERuAmhJh8vZi1dzJtx8926xeCT74747e
+> SetShieldedLGCY20ContractAddress TLDxNTzNvEPd4gHox8V1zK2w82LFnideKE TKERuAmhJh8vZi1dzJtx8926xeCT74747e
 scalingFactor():ed3437f8
-SetShieldedTRC20ContractAddress succeed!
+SetShieldedLGCY20ContractAddress succeed!
 The Scaling Factor is 1000
 That means:
 No matter you MINT, TRANSFER or BURN, the value must be an integer multiple of 1000
 ```
 
-### LoadShieldedTRC20Wallet
+### LoadShieldedLGCY20Wallet
 
-Load TRC20 shielded address, shielded note and start to scan by ivk.
+Load LGCY20 shielded address, shielded note and start to scan by ivk.
 
 Example:
 
 ```console
-> LoadShieldedTRC20Wallet
-Please input your password for shieldedTRC20 wallet.
+> LoadShieldedLGCY20Wallet
+Please input your password for shieldedLGCY20 wallet.
 > *******
-LoadShieldedTRC20Wallet successful !!!
+LoadShieldedLGCY20Wallet successful !!!
 ```
