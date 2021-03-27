@@ -25,7 +25,7 @@ And of course LGCY Network itself will be open source with a [public repository]
 
 Want to contribute? Great!
 
-Make a change in your file and instantaneously to see your updates!
+Make a change in your file and instantaneously see your updates!
 
 
 ## License
