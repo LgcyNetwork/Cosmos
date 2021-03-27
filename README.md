@@ -4,7 +4,7 @@
 LGCY Network is a DPoS, open-source blockchain protocol with industry-leading transaction speed and flexible utility. 
 Running on the Libertas Protocol, the network aims to be the most decentralized dApp blockchain in the world.
 
-Bringing true decentralization with DPoS by implementing the Libertas Protocol to the Super Representatives (GBs) system of governance. By splitting up the 27 SRs into three branches, limiting the power of each, and introducing terms to the governance system, no single large token holder will be able to gain an unbalanced amount of power.
+Bringing true decentralization with DPoS by implementing the Libertas Protocol to the Super Representatives (GBs) system of governance. By splitting up the 27 GBs into three branches, limiting the power of each, and introducing terms to the governance system, no single large token holder will be able to gain an unbalanced amount of power.
 
 
 ## Tech
